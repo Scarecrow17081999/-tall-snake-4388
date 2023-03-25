@@ -7,7 +7,8 @@
       "description": "Men Slim Low Rise Blue Jeans",
       "rating": 4.5,
       "price": "400",
-      "id": 1
+      "id": 1,
+      "quantity": 1
     },
     {
       "name": "jeans",
@@ -692,20 +693,12 @@
       "description": "Girls White Crepe Frocks & Dresses Pack Of 1",
       "rating": 4.5,
       "price": "456",
-      "id": 15
-    },
-    {
-      "name": "Frocks",
-      "brand": "luxis",
-      "img": "https://images.meesho.com/images/products/141784003/v5ce8_400.webp",
-      "description": "Girls White Crepe Frocks & Dresses Pack Of 1",
-      "rating": 4.5,
-      "price": "780",
-      "id": 16
+      "id": 15,
+      "quantity": 1
     }
   ],
   "men": [
-        {
+    {
       "name": "jeans",
       "brand": "duke",
       "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
@@ -724,22 +717,16 @@
       "id": 2
     }
   ],
-  "women": [    {
+  "women": [
+    {
       "name": "jeans",
       "brand": "duke",
       "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
       "description": "Men Slim Low Rise Blue Jeans",
       "rating": 4.5,
       "price": "400",
-      "id": 1
-    },
-    {
-      "name": "jeans",
-      "brand": "duke",
-      "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/n/6/v/36-sdd5288d-blue-duke-original-imagh7vnmfme9wp4.jpeg?q=70",
-      "description": "Men Slim Low Rise Blue Jeans",
-      "rating": 3.5,
-      "price": "450",
-      "id": 2
-    }]
+      "id": 1,
+      "quantity": 1
+    }
+  ]
 }
