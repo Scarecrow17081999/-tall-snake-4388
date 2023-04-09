@@ -1,0 +1,1474 @@
+{
+  "products": [],
+  "men": [
+    {
+      "name": "WES Casuals",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016130827_437Wx649H_202301201918591.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016130827_437Wx649H_202301201918572.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "WES Casuals",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016130996_437Wx649H_202301201928041.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016130996_437Wx649H_202301201928012.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "U.S. Polo Assn.",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015583423_437Wx649H_202212052239571.jpeg",
+      "img2": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015583423_437Wx649H_202212052239592.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1199,
+      "id": 2
+    },
+    {
+      "name": "Ascot",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016130998_437Wx649H_202301201928021.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016130998_437Wx649H_202301201927552.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1499,
+      "id": 2
+    },
+    {
+      "name": "WES Casuals",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062081_437Wx649H_202301140401021.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062081_437Wx649H_202301140400592.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 999,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062155_437Wx649H_202301140404341.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062155_437Wx649H_202301140404372.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "Nuon Men",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016130980_437Wx649H_202301201926531.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016130980_437Wx649H_202301201926582.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "Ascot",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062062_437Wx649H_202301140359581.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062062_437Wx649H_202301140400052.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1499,
+      "id": 2
+    },
+    {
+      "name": "The Bear House",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000015902255_437Wx649H_202212300003041.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000015902255_437Wx649H_202212300003012.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1546,
+      "id": 2
+    },
+    {
+      "name": "Spykar",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013801452_437Wx649H_202207160550181.jpeg",
+      "img2": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013801452_437Wx649H_202207160550222.jpeg",
+      "description": "Spykar Yellow Cotton Slim Fit Checks Shirt",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    },
+    {
+      "name": "ETA",
+      "brand": "duke",
+      "img1": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405071.jpeg",
+      "img2": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016062164_437Wx649H_202301140405062.jpeg",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 3.5,
+      "price": 1299,
+      "id": 2
+    }
+  ],
+  "women": [
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "img2": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1299,
+      "id": 1,
+      "quantity": 1
+    }
+  ],
+  "imageItemData1": [
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46431234555934.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46431249858590.jpg",
+      "title": "Burger"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46431234687006.jpg",
+      "title": "Camera"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46431234883614.jpg",
+      "title": "Coffee"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46431234818078.jpg",
+      "title": "Hats"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46431235080222.jpg",
+      "title": "Honey"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46431234949150.jpg",
+      "title": "Basketball"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46431235145758.jpg",
+      "title": "Fern"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46431234752542.jpg",
+      "title": "Mushrooms"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46431235014686.jpg",
+      "title": "Tomato basil"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46431235211294.jpg",
+      "title": "Sea star"
+    }
+  ],
+  "imageCardsData1": [
+    {
+      "title": "BLOCKBUSTER OFFERS",
+      "detail": "Grab the best deals on your faves before they're gone"
+    },
+    [
+      {
+        "img": "https://assets.tatacliq.com/medias/sys_master/images/46573732200478.jpg",
+        "title": "Breakfast"
+      },
+      {
+        "img": "https://assets.tatacliq.com/medias/sys_master/images/46573732266014.jpg",
+        "title": "Burger"
+      },
+      {
+        "img": "https://assets.tatacliq.com/medias/sys_master/images/46573732331550.jpg",
+        "title": "Camera"
+      },
+      {
+        "img": "https://assets.tatacliq.com/medias/sys_master/images/46573732397086.jpg",
+        "title": "Coffee"
+      }
+    ]
+  ],
+  "imageCardsData2": [
+    { "title": "DEALS WHEEL", "detail": "Grab these before they're gone" },
+    [
+      {
+        "img": "https://assets.tatacliq.com/medias/sys_master/images/46573733183518.jpg",
+        "title": "Breakfast"
+      },
+      {
+        "img": "https://assets.tatacliq.com/medias/sys_master/images/46580406222878.jpg",
+        "title": "Burger"
+      },
+      {
+        "img": "https://assets.tatacliq.com/medias/sys_master/images/46523130871838.jpg",
+        "title": "Camera"
+      },
+      {
+        "img": "https://assets.tatacliq.com/medias/sys_master/images/46573731872798.jpg",
+        "title": "Coffee"
+      }
+    ]
+  ],
+  "imageCardsData3": [
+    { "title": "NEW ON CLiQ", "detail": "Fresh piQs to choose form" },
+    [
+      {
+        "img": "https://assets.tatacliq.com/medias/sys_master/images/27189346762782.jpg",
+        "title": "Breakfast"
+      }
+    ]
+  ],
+  "carouselCardImage1": [
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46494133190686.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46534730448926.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46534730514462.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46534730776606.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46534730842142.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46494133321758.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46534730907678.jpg",
+      "title": "Breakfast"
+    }
+  ],
+  "carouselCardImage2": [
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46573547618334.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46523129397278.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46573732462622.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46534725304350.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46533177671710.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46504976613406.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46481241833502.jpg",
+      "title": "Breakfast"
+    }
+  ],
+  "carouselCardImage3": [
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46461416210462.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46533178359838.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46456582111262.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46456582471710.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46456582537246.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46399074009118.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46481241833502.jpg",
+      "title": "Breakfast"
+    }
+  ],
+  "carouselCardImage4": [
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46452089815070.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46399073681438.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46452090077214.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46452090273822.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46399074074654.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46399074009118.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46481241833502.jpg",
+      "title": "Breakfast"
+    }
+  ],
+  "carouselCardImage5": [
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46461418471454.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46461418733598.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46461418602526.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46461418536990.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46461418799134.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46420670808094.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46461418668062.jpg",
+      "title": "Breakfast"
+    }
+  ],
+  "carouselCardImage6": [
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46553173098526.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46461419257886.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46461419061278.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46461418995742.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46461419257886.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46461419126814.jpg",
+      "title": "Breakfast"
+    },
+    {
+      "img": "https://assets.tatacliq.com/medias/sys_master/images/46553173098526.jpg",
+      "title": "Breakfast"
+    }
+  ],
+  "gridCardImage1": [
+    { "title": "GADGET CENTRAL", "detail": "Tech to need every need" },
+    [
+      {
+        "img": "https://assets.tatacliq.com/medias/sys_master/images/46573558890526.jpg",
+        "title": "Breakfast"
+      },
+      {
+        "img": "https://assets.tatacliq.com/medias/sys_master/images/46573559021598.jpg",
+        "title": "Breakfast"
+      },
+      {
+        "img": "https://assets.tatacliq.com/medias/sys_master/images/46573561282590.jpg",
+        "title": "Breakfast"
+      },
+      {
+        "img": "https://assets.tatacliq.com/medias/sys_master/images/46573561348126.jpg",
+        "title": "Breakfast"
+      }
+    ]
+  ],
+  "gridCardImage2": [
+    { "title": "WOMENSWEAR BY CLiQ", "detail": "Curated looks for the season" },
+    [
+      {
+        "img": "https://assets.tatacliq.com/medias/sys_master/images/46452089618462.jpg",
+        "title": "Breakfast"
+      },
+      {
+        "img": "https://assets.tatacliq.com/medias/sys_master/images/46452089683998.jpg",
+        "title": "Breakfast"
+      }
+    ]
+  ],
+  "gridCardImage3": [
+    {
+      "title": "MENSWEAR BY CLiQ",
+      "detail": "Season's hottest looks, styled for you"
+    },
+    [
+      {
+        "img": "https://assets.tatacliq.com/medias/sys_master/images/46461418340382.jpg",
+        "title": "Breakfast"
+      },
+      {
+        "img": "https://assets.tatacliq.com/medias/sys_master/images/46461418405918.jpg",
+        "title": "Breakfast"
+      }
+    ]
+  ]
+}
