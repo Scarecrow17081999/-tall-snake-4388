@@ -9,6 +9,7 @@ import Footer from "./Footer/Footer";
 import {DataContext} from "../../Contexts/DataContext";
 import { useContext } from "react";
 import ImageGrid from "./Carousel/ImageGrid/ImageGrid";
+
 export default function HomePage({ data }) {
   const {
     imageCardsData1,

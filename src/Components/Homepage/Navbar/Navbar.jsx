@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link,Navigate } from "react-router-dom";
 import "./Navbar.css";
 import Box from "@mui/material/Box";
 import Avatar from "@mui/material/Avatar";
@@ -19,6 +19,7 @@ import ArchiveIcon from "@mui/icons-material/Archive";
 import FileCopyIcon from "@mui/icons-material/FileCopy";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import Cart from '../.././Cart/Cart';
 function AccountMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
@@ -326,7 +327,9 @@ export default function Navbar() {
               }}
               aria-label="delete"
             >
-              <LocalMallIcon sx={{ color: "white" }} />
+              <Navigate to={<Cart />}>
+                <LocalMallIcon sx={{ color: "white" }} />
+              </Navigate>
             </IconButton>
           </Badge>
         </div>

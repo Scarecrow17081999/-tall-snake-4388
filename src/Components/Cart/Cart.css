@@ -1,0 +1,39 @@
+#cartNavBarFullWidth {
+  background-color: #333436;
+}
+#cartNavBar {
+  height: 80px;
+  /* background-color:#333436 ; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+#cartNavBar > img {
+  height: 60%;
+
+  background-color: #333436;
+}
+#cartNavBarBottom {
+  height: 80px;
+  background-color: white;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+#cartNavBarBottom > div {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+#cartContainerMain {
+  width: 80%;
+  margin: auto;
+}
+#cartContainerMain > h4 {
+  text-align: start;
+}
