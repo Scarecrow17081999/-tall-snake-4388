@@ -5,6 +5,7 @@ import Cart from "./Components/Cart/Cart";
 import HomePage from "./Components/Homepage/Homapage";
 import Singleproductpage from "./Components/Singleproductpage/Singleproductpage";
 import SearchPage from "./Components/Searchpage/SearchPage";
+import SearchPageApi from "./Components/Searchpage/SearchPageApi";
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
    {/* <LoginSignup/> */}
    {/* <Singleproductpage/> */}
    <SearchPage/>
+   {/* <SearchPageApi/> */}
     </div>
   );
 }

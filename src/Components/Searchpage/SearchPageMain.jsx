@@ -15,6 +15,7 @@ import PriceRadioGroup from "./PriceRadioGroup";
 import DepartmentRadioGroup from "./DepartmentRadioGroup";
 import BrandRadioGroup from "./BrandRadioGroup";
 import ColorSelectGroup from "./ColorSelectGroup";
+import SearchPageProducts from "./SearchPageProducts";
 import {Button} from "@mui/material";
 import "./SearchPageMain.css";
 export default function SearchPageMain() {
@@ -28,7 +29,9 @@ export default function SearchPageMain() {
           <div id="SearchPageMainChildContainerLeft">
             <Accordions />
           </div>
-          <div id="SearchPageMainChildContainerRight"></div>
+          <div id="SearchPageMainChildContainerRight">
+            <SearchPageProducts />
+          </div>
         </div>
       </div>
     </div>
@@ -117,14 +120,14 @@ function Accordions() {
   };
 
   return (
-    <div style={{ width: "23%" }}>
+    <div style={{ width: "250px" }}>
       <div
         style={{
           textAlign: "start",
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
-          padding: "0 1rem",
+          padding: "0.5rem 1rem",
         }}
       >
         <h4>Filters</h4>

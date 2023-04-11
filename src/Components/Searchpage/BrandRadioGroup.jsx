@@ -4,7 +4,7 @@ import Radio from "@mui/material/Radio";
 import RadioGroup from "@mui/material/RadioGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import FormControl from "@mui/material/FormControl";
-import {Button} from "@mui/material";
+import { Button } from "@mui/material";
 import FormLabel from "@mui/material/FormLabel";
 
 const BpIcon = styled("span")(({ theme }) => ({
@@ -67,6 +67,15 @@ function BpRadio(props) {
 }
 
 export default function BrandRadioGroup() {
+  const [categories, setCategories] = React.useState([]);
+  const fetchFunc = () => {
+    fetch("https://dummyjson.com/products/categories")
+      .then((res) => res.json())
+      .then((data) => setCategories(data));
+  };
+  React.useEffect(()=>{
+    fetchFunc();
+  },[])
   return (
     <FormControl>
       <RadioGroup
@@ -74,23 +83,11 @@ export default function BrandRadioGroup() {
         aria-labelledby="demo-customized-radios"
         name="customized-radios"
       >
-        <FormControlLabel
-          value="10"
-          control={<BpRadio />}
-          label="AD by Arvind"
-        />
-        <FormControlLabel
-          value="10-30"
-          control={<BpRadio />}
-          label="Ancestry"
-        />
-        <FormControlLabel value="30-50" control={<BpRadio />} label="AND" />
-        <FormControlLabel value="50-70" control={<BpRadio />} label="ANDAMEN" />
-        <FormControlLabel
-          value="70-100"
-          control={<BpRadio />}
-          label="ATTIC SALT"
-        />
+        {categories?categories.map((e)=>{
+          return (
+            <FormControlLabel sx={{textTransform:'capitalize'}} value={e} control={<BpRadio />} label={e} />
+          );
+        }):null}    
       </RadioGroup>
       <Button>More Brands</Button>
     </FormControl>

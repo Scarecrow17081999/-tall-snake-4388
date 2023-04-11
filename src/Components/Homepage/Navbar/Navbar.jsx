@@ -32,7 +32,6 @@ import { useContext } from "react";
 function AccountMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const { logout, isAuthenticated } = useContext(AuthContext);
-  console.log(isAuthenticated);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -374,7 +373,6 @@ function Login() {
   const [password, setPassword] = React.useState("");
   const [token, setToken] = React.useState("");
   const { login, logout, isAuthenticated } = useContext(AuthContext);
-  console.log(login, logout, isAuthenticated);
   const fetch = (email, password) => {
     axios
       .post("https://reqres.in/api/login", {
@@ -384,10 +382,10 @@ function Login() {
       .then(function (response) {
         //  setIsAuthenticated(true);
         setToken(response.data.token);
-        console.log(response.data);
+        // console.log(response.data);
       })
       .catch(function (error) {
-        console.log(error);
+        // console.log(error);
         //  setIsAuthenticated(false);
       });
   };
