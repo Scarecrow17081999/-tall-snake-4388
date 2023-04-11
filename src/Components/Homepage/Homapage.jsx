@@ -28,7 +28,7 @@ export default function HomePage({ data }) {
   
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <Carousel />
       <ImageCard />
       <PaymentOffers />

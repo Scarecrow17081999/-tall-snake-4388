@@ -1,8 +1,14 @@
+#navbarContainer{
+    position: sticky;
+    top: 0;
+  
+}
 #topNavContainer{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 25px;
+    height: 50px;
     background-color: #000000;
     
 }

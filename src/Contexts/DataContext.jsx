@@ -7,11 +7,10 @@ export default function DataContextProvider(props) {
  
   React.useEffect(() => {
     setlandingPageData(jsonData);
-    // console.log(jsonData);
   }, []);
   
   return (
-    <DataContext.Provider value={jsonData}>
+    <DataContext.Provider value={jsonData?jsonData:null}>
       {props.children}
     </DataContext.Provider>
   );

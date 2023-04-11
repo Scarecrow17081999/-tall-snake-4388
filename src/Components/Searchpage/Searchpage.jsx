@@ -1,7 +1,14 @@
-import React from 'react'
-
-export default function Searchpage() {
+import React from "react";
+import "./SearchPage.css";
+import Navbar from "../Homepage/Navbar/Navbar";
+import Footer from "./SearchPageFooter";
+import SearchPageMain from "./SearchPageMain";
+export default function SearchPage({ data }) {
   return (
-    <div>Searchpage</div>
-  )
+    <>
+      <Navbar />
+      <SearchPageMain />
+      <Footer />
+    </>
+  );
 }

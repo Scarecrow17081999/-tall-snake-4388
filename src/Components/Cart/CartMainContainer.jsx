@@ -8,10 +8,11 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
-import SkipPreviousIcon from "@mui/icons-material/SkipPrevious";
-import PlayArrowIcon from "@mui/icons-material/PlayArrow";
-import SkipNextIcon from "@mui/icons-material/SkipNext";
-import CartFooter from "./CartFooter";
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import Button from "@mui/material/Button";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
 const data = [
   {
     img: "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016000649_437Wx649H_202301080231401.jpeg",
@@ -66,7 +67,7 @@ const data = [
 ];
 export default function CartMainContainer() {
   return (
-    <div style={{display:'flex',justifyContent:'space-between'}}>
+    <div style={{ display: "flex", justifyContent: "space-between" }}>
       <div style={{ width: "70%" }}>
         {data.map((e) => {
           return <CartCard data={e} key={Math.random()} />;
@@ -93,8 +94,7 @@ export default function CartMainContainer() {
             marginBottom: "1rem",
             borderRadius: "10px",
             position: "sticky",
-            top: "105px",
-
+            top: 175,
           }}
         >
           <div>
@@ -113,7 +113,7 @@ export default function CartMainContainer() {
             <p>You will save ₹300.00 on this order</p>
           </div>
           <div>
-            <Divider />
+            <Divider sx={{ borderBottom: "1px solid #ccc", width: "100%" }} />
           </div>
           <div>
             <div>
@@ -140,12 +140,11 @@ export default function CartMainContainer() {
     </div>
   );
 }
-
 function CartCard({ data }) {
   const theme = useTheme();
 
   return (
-    <Card sx={{ display: "flex", marginBottom: "15px", boxShadow: "none" }}>
+    <Card sx={{ display: "flex", marginBottom: "15px", boxShadow: "none",justifyContent:'space-between',p:'0 20px' }}>
       <CardMedia
         component="img"
         sx={{ width: 151 }}
@@ -166,8 +165,69 @@ function CartCard({ data }) {
             `₹{data.price}`
           </Typography>
         </CardContent>
-        <Box sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}></Box>
+        <Divider sx={{ borderBottom: "1px solid #ccc", width: "100%" }} />
+        <Box
+          sx={{ display: "flex", alignItems: "center", justifyContent:'space-between',pl: 1, pb: 1, pt: 1 }}
+        >
+          <UseMenu />
+          <Box
+            sx={{ display: "flex", alignItems: "center" }}
+          >
+            <IconButton aria-label="delete">
+              <FavoriteBorderIcon sx={{ color: "black" }} />
+            </IconButton>
+            <p style={{marginRight:'1rem'}}>Save to wishlist</p>
+            <Button sx={{border:'none',background:'transparent'}}>Remove</Button>
+          </Box>
+        </Box>
       </Box>
     </Card>
   );
 }
+ function UseMenu() {
+  const [anchorEl, setAnchorEl] = React.useState(null);
+  const [quantity, setQuantity] = React.useState(1);
+  const open = Boolean(anchorEl);
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+  const handleClose = (num) => {
+    setQuantity(num)
+    setAnchorEl(null);
+  };
+
+  return (
+    <div>
+      <Button
+        id="basic-button"
+        aria-controls={open ? "basic-menu" : undefined}
+        aria-haspopup="true"
+        aria-expanded={open ? "true" : undefined}
+        onClick={handleClick}
+        endIcon={<KeyboardArrowDownIcon />}
+      >
+        Quantity:
+      </Button>
+      <span style={{marginLeft:'15px'}}>
+
+      {quantity}
+      </span>
+      <Menu
+        id="basic-menu"
+        anchorEl={anchorEl}
+        open={open}
+        onClose={handleClose}
+        MenuListProps={{
+          "aria-labelledby": "basic-button",
+        }}
+      >
+        <MenuItem onClick={()=>{handleClose(1)}}>1</MenuItem>
+        <MenuItem onClick={()=>{handleClose(2)}}>2</MenuItem>
+        <MenuItem onClick={()=>{handleClose(3)}}>3</MenuItem>
+        <MenuItem onClick={()=>{handleClose(4)}}>4</MenuItem>
+        <MenuItem onClick={()=>{handleClose(5)}}>5</MenuItem>
+      </Menu>
+    </div>
+  );
+}
+

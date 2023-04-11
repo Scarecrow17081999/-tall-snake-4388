@@ -1,0 +1,14 @@
+#SearchPageMainParentContainer{
+    width: 100%;
+    background-color: white;
+}
+#SearchPageMainChildContainer{
+    width: 80%;
+    margin: auto;
+}
+#SearchPageMainChildContainerLeft{
+    
+}
+#SearchPageMainChildContainerRight{
+
+}
