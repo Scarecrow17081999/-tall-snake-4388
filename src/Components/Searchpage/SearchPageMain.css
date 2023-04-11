@@ -1,6 +1,11 @@
 #SearchPageMainParentContainer{
     width: 100%;
     background-color: white;
+    padding-bottom: 8rem;
+}
+#SearchPageMainChildContainerTop{
+    display: flex;
+    justify-content: flex-end;
 }
 #SearchPageMainChildContainer{
     width: 80%;
