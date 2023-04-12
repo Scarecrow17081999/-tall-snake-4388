@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import  {CartTotalItems} from '../../../Contexts/CartTotalItems';
 import { Link, Navigate } from "react-router-dom";
 import "./Navbar.css";
 import { FormControl, Input, InputLabel } from "@mui/material";
@@ -310,56 +311,56 @@ function CustomizedMenus2() {
   );
 }
 export default function Navbar() {
-  return (
-    <Box
-      id="navbarContainer"
-      sx={{ position: "sticky", top: 0, zIndex: "999" }}
-    >
-      <Box id="topNavContainer">
-        <Box>
-          <Link style={{ textDecoration: "none", color: "white" }} to="/">
-            Tata CLiQ Luxury
-          </Link>
-        </Box>
-        <Box sx={{ width: "50%" }}>
-          <AccountMenu />
-        </Box>
+  const { cartTotalProductsNumber } = useContext(CartTotalItems);
+
+
+return (
+  <Box id="navbarContainer" sx={{ position: "sticky", top: 0, zIndex: "999" }}>
+    <Box id="topNavContainer">
+      <Box>
+        <Link style={{ textDecoration: "none", color: "white" }} to="/">
+          Tata CLiQ Luxury
+        </Link>
       </Box>
-      <Box id="bottomNavContainer">
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <CustomizedMenus />
-          <CustomizedMenus2 />
-          <InputWithIcon />
-        </div>
-        <div style={{ margin: "auto 9px" }}>
-          <IconButton aria-label="delete">
-            <FavoriteBorderIcon sx={{ color: "white" }} />
-          </IconButton>
-          <Badge
-            sx={{
-              margin: "0 0 0 15px",
-            }}
-            badgeContent={1}
-            color="primary"
-            max={10}
-          >
-            <IconButton
-              sx={{
-                color: "white",
-                padding: "0",
-                margin: "0",
-              }}
-              aria-label="delete"
-            >
-              <Link to="/cart">
-                <LocalMallIcon sx={{ color: "white" }} />
-              </Link>
-            </IconButton>
-          </Badge>
-        </div>
+      <Box sx={{ width: "50%" }}>
+        <AccountMenu />
       </Box>
     </Box>
-  );
+    <Box id="bottomNavContainer">
+      <div style={{ display: "flex", alignItems: "center" }}>
+        <CustomizedMenus />
+        <CustomizedMenus2 />
+        <InputWithIcon />
+      </div>
+      <div style={{ margin: "auto 9px" }}>
+        <IconButton aria-label="delete">
+          <FavoriteBorderIcon sx={{ color: "white" }} />
+        </IconButton>
+        <Badge
+          sx={{
+            margin: "0 0 0 15px",
+          }}
+          badgeContent={window.localStorage.getItem("cartTotalProductsNumber")}
+          color="primary"
+          max={100}
+        >
+          <IconButton
+            sx={{
+              color: "white",
+              padding: "0",
+              margin: "0",
+            }}
+            aria-label="delete"
+          >
+            <Link to="/cart">
+              <LocalMallIcon sx={{ color: "white" }} />
+            </Link>
+          </IconButton>
+        </Badge>
+      </div>
+    </Box>
+  </Box>
+);
 }
 const style = {
   position: "absolute",
@@ -375,28 +376,6 @@ const style = {
   p: 4,
 };
 
-// function Login() {
-//   const [email, setEmail] = React.useState("");
-//   const [password, setPassword] = React.useState("");
-//   const [token, setToken] = React.useState("");
-//   const { login, logout, isAuthenticated } = useContext(AuthContext);
-//   const fetch = (email, password) => {
-//     axios
-//       .post("https://reqres.in/api/login", {
-//         email,
-//         password,
-//       })
-//       .then(function (response) {
-//         //  setIsAuthenticated(true);
-//         setToken(response.data.token);
-//         // console.log(response.data);
-//       })
-//       .catch(function (error) {
-//         // console.log(error);
-//         //  setIsAuthenticated(false);
-//       });
-//   };
-// }
 const Div = styled("div")(({ theme }) => ({
   ...theme.typography.button,
   backgroundColor: theme.palette.background.paper,

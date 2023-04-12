@@ -3,10 +3,13 @@ import "./Singleproductpage.css";
 import Footer from "../Homepage/Footer/Footer";
 import Navbar from "../Homepage/Navbar/Navbar";
 import { Divider } from "@mui/material";
+
+
+import Snackbar from "@mui/material/Snackbar";
+import MuiAlert from "@mui/material/Alert";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 import ShareOutlinedIcon from "@mui/icons-material/ShareOutlined";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
-
 import StarOutlineIcon from "@mui/icons-material/StarOutline";
 import Button from "@mui/material/Button";
 import PersonOutlineSharpIcon from "@mui/icons-material/PersonOutlineSharp";
@@ -14,23 +17,30 @@ import DoneSharpIcon from "@mui/icons-material/DoneSharp";
 import StarPurple500SharpIcon from "@mui/icons-material/StarPurple500Sharp";
 import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
+// import CartSnackBar from './CartSanckBar'
 import { useParams } from "react-router-dom";
+import { useContext } from "react";
+import { CartTotalItems } from "../../Contexts/CartTotalItems";
 export default function Singleproductpage({ data }) {
-  const [singleProduct, setSingleProduct] = React.useState({});
   let { id } = useParams();
+  let { addItem, removeItem, cartData, cartTotalProductsNumber } =
+    useContext(CartTotalItems);
+  const [singleProduct, setSingleProduct] = React.useState({});
 
   const fetchProducts = async () => {
     const response = await fetch(`https://dummyjson.com/products/${id}`);
     const data = await response.json();
     setSingleProduct(data);
   };
+  const addToBagFunction = () => {
+    addItem();
+  };
 
   React.useEffect(() => {
     fetchProducts();
-  });
-  React.useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
+  },[]);
+ 
 
   return (
     <>
@@ -308,9 +318,12 @@ export default function Singleproductpage({ data }) {
                   >
                     Buy Now
                   </button>
-                  <button
+                  <CartSnackBar data={{addToBagFunction}} />
+                  {/* <button
+                    onClick={(e) => {
+                      addToBagFunction();
+                    }}
                     style={{
-                      // color: "#da1c5c",
                       border: "1px solid #da1c5c",
                       color: "white",
                       width: "38%",
@@ -322,7 +335,7 @@ export default function Singleproductpage({ data }) {
                     }}
                   >
                     Add To Bag
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>
@@ -410,6 +423,59 @@ export default function Singleproductpage({ data }) {
         </div>
       </div>
       <Footer />
+    </>
+  );
+}
+
+const Alert = React.forwardRef(function Alert(props, ref) {
+  return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
+});
+
+ function CartSnackBar({data}) {
+  const [open, setOpen] = React.useState(false);
+console.log(data.addToBagFunction);
+  const handleClick = () => {
+    setOpen(true);
+  };
+
+  const handleClose = (event, reason) => {
+    if (reason === "clickaway") {
+      return;
+    }
+
+    setOpen(false);
+  };
+
+  return (
+    < >
+      <button
+        style={{
+          border: "1px solid #da1c5c",
+          color: "white",
+          width: "38%",
+          backgroundColor: "#da1c5c",
+          padding: "0.7rem",
+          borderRadius: "0.5rem",
+          fontSize: "1.2rem",
+          cursor: "pointer",
+        }}
+        onClick={() => {
+          data.addToBagFunction();
+          handleClick();
+        }}
+       
+      >
+        Add To Cart
+      </button>
+      <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
+        <Alert onClose={handleClose} severity="success" sx={{ width: "100%" }}>
+          Product Added To Cart
+        </Alert>
+      </Snackbar>
+      {/* <Alert severity="error">This is an error message!</Alert>
+      <Alert severity="warning">This is a warning message!</Alert>
+      <Alert severity="info">This is an information message!</Alert>
+      <Alert severity="success">This is a success message!</Alert> */}
     </>
   );
 }
