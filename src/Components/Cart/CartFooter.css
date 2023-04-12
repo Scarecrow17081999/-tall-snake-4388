@@ -1,24 +1,22 @@
-#cartFooterParentContainer{
-background-color: white;
-width: 100%;
-margin-bottom: 0;
+#cartFooterParentContainer {
+  background-color: white;
+  width: 100%;
+  margin-bottom: 0;
 }
-#cartFooterContainer{
-width: 80%;
-height: 160px;
-margin: auto ;
-text-align: start;
-display: flex;
-justify-content: space-between;
-
+#cartFooterContainer {
+  width: 80%;
+  height: 160px;
+  margin: auto;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
 }
-#cartFooterContainer>div:nth-child(1){
-display: flex;
-flex-direction: column;
-justify-content: flex-end;
+#cartFooterContainer > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
-#cartFooterContainer2{
-
-margin: auto ;
-text-align: start;
+#cartFooterContainer2 {
+  margin: auto;
+  text-align: start;
 }

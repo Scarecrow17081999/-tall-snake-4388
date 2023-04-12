@@ -4,7 +4,7 @@ import Radio from "@mui/material/Radio";
 import RadioGroup from "@mui/material/RadioGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import FormControl from "@mui/material/FormControl";
-import FormLabel from "@mui/material/FormLabel";
+
 
 const BpIcon = styled("span")(({ theme }) => ({
   borderRadius: "50%",
@@ -60,7 +60,7 @@ function BpRadio(props) {
       checkedIcon={<BpCheckedIcon />}
       icon={<BpIcon />}
       {...props}
-      sx={{margin: "0.7rem 0 0.7rem 0"}}
+      sx={{ margin: "0.7rem 0 0.7rem 0" }}
     />
   );
 }
@@ -73,10 +73,17 @@ export default function DepartmentRadioGroup() {
         aria-labelledby="demo-customized-radios"
         name="customized-radios"
       >
-        <FormControlLabel value="10" control={<BpRadio />} label="Women's Clothing" />
-        <FormControlLabel value="10-30" control={<BpRadio />} label="Men's Clothing" />
+        <FormControlLabel
+          value="10"
+          control={<BpRadio />}
+          label="Women's Clothing"
+        />
+        <FormControlLabel
+          value="10-30"
+          control={<BpRadio />}
+          label="Men's Clothing"
+        />
         <FormControlLabel value="30-50" control={<BpRadio />} label="Kids" />
-       
       </RadioGroup>
     </FormControl>
   );

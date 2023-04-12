@@ -5,11 +5,11 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./CarouselMultipleCards.module.css";
 
-export default function CarouselMultipleCards({data}) {
+export default function CarouselMultipleCards({ data }) {
   return (
     <>
       <Swiper
-        style={{ width: "75%",height:'90%',margin:'125px auto' }}
+        style={{ width: "75%", height: "90%", margin: "125px auto" }}
         slidesPerView={1}
         spaceBetween={10}
         navigation={true}
@@ -40,7 +40,7 @@ export default function CarouselMultipleCards({data}) {
         {data?.map((e) => {
           return (
             <SwiperSlide>
-              <img style={{height:'350px'}} src={e.img} alt={e.title} />
+              <img style={{ height: "350px" }} src={e.img} alt={e.title} />
             </SwiperSlide>
           );
         })}

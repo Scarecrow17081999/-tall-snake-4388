@@ -5,7 +5,7 @@ import RadioGroup from "@mui/material/RadioGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import FormControl from "@mui/material/FormControl";
 import { Button } from "@mui/material";
-import FormLabel from "@mui/material/FormLabel";
+
 
 const BpIcon = styled("span")(({ theme }) => ({
   borderRadius: "50%",
@@ -73,9 +73,9 @@ export default function BrandRadioGroup() {
       .then((res) => res.json())
       .then((data) => setCategories(data));
   };
-  React.useEffect(()=>{
+  React.useEffect(() => {
     fetchFunc();
-  },[])
+  }, []);
   return (
     <FormControl>
       <RadioGroup
@@ -83,11 +83,18 @@ export default function BrandRadioGroup() {
         aria-labelledby="demo-customized-radios"
         name="customized-radios"
       >
-        {categories?categories.map((e)=>{
-          return (
-            <FormControlLabel sx={{textTransform:'capitalize'}} value={e} control={<BpRadio />} label={e} />
-          );
-        }):null}    
+        {categories
+          ? categories.map((e) => {
+              return (
+                <FormControlLabel
+                  sx={{ textTransform: "capitalize" }}
+                  value={e}
+                  control={<BpRadio />}
+                  label={e}
+                />
+              );
+            })
+          : null}
       </RadioGroup>
       <Button>More Brands</Button>
     </FormControl>

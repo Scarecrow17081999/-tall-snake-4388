@@ -3,7 +3,7 @@ import { Image, Stack } from "@chakra-ui/react";
 import { useContext } from "react";
 import { DataContext } from "../../../../Contexts/DataContext";
 export default function ImageCard() {
-    const {imageItemData1}=useContext(DataContext);
+  const { imageItemData1 } = useContext(DataContext);
   return (
     <>
       <Stack direction="row" style={{ margin: "25px auto", width: "90%" }}>
@@ -20,4 +20,3 @@ export default function ImageCard() {
     </>
   );
 }
-

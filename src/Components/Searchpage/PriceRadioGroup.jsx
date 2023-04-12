@@ -4,7 +4,7 @@ import Radio from "@mui/material/Radio";
 import RadioGroup from "@mui/material/RadioGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import FormControl from "@mui/material/FormControl";
-import FormLabel from "@mui/material/FormLabel";
+
 
 const BpIcon = styled("span")(({ theme }) => ({
   borderRadius: "50%",
@@ -60,7 +60,7 @@ function BpRadio(props) {
       checkedIcon={<BpCheckedIcon />}
       icon={<BpIcon />}
       {...props}
-      sx={{margin: "0.2rem 0 0.2rem 0"}}
+      sx={{ margin: "0.2rem 0 0.2rem 0" }}
     />
   );
 }
@@ -73,11 +73,7 @@ export default function PriceRadioGroup() {
         aria-labelledby="demo-customized-radios"
         name="customized-radios"
       >
-        <FormControlLabel
-          value="0-500"
-          control={<BpRadio />}
-          label="₹0-₹500"
-        />
+        <FormControlLabel value="0-500" control={<BpRadio />} label="₹0-₹500" />
         <FormControlLabel
           value="10-30"
           control={<BpRadio />}
@@ -104,7 +100,6 @@ export default function PriceRadioGroup() {
           label="₹3001 and above"
         />
       </RadioGroup>
-
     </FormControl>
   );
 }

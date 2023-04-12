@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./Navbar/Navbar";
 import Carousel from "./Carousel/Carousul";
 import ImageCard from "./Carousel/ImageCard/ImageCard";
@@ -25,7 +25,9 @@ export default function HomePage({ data }) {
     gridCardImage2,
     gridCardImage3,
   } = useContext(DataContext);
-  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar/>

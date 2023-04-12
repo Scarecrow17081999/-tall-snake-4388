@@ -6,7 +6,7 @@ import { Divider } from "@mui/material";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 import ShareOutlinedIcon from "@mui/icons-material/ShareOutlined";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
-import IconButton from "@mui/material/IconButton";
+
 import StarOutlineIcon from "@mui/icons-material/StarOutline";
 import Button from "@mui/material/Button";
 import PersonOutlineSharpIcon from "@mui/icons-material/PersonOutlineSharp";
@@ -14,7 +14,24 @@ import DoneSharpIcon from "@mui/icons-material/DoneSharp";
 import StarPurple500SharpIcon from "@mui/icons-material/StarPurple500Sharp";
 import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
+import { useParams } from "react-router-dom";
 export default function Singleproductpage({ data }) {
+  const [singleProduct, setSingleProduct] = React.useState({});
+  let { id } = useParams();
+
+  const fetchProducts = async () => {
+    const response = await fetch(`https://dummyjson.com/products/${id}`);
+    const data = await response.json();
+    setSingleProduct(data);
+  };
+
+  React.useEffect(() => {
+    fetchProducts();
+  });
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Navbar />
@@ -24,13 +41,21 @@ export default function Singleproductpage({ data }) {
             <div id="singleProductTopContainer1">
               <div>
                 <img
-                  src="https://img.tatacliq.com/images/i8/437Wx649H/MP000000014185524_437Wx649H_202208201933371.jpeg"
+                  src={
+                    singleProduct.images !== undefined
+                      ? singleProduct.images[0]
+                      : ""
+                  }
                   alt=""
                 />
               </div>
               <div>
                 <img
-                  src="https://img.tatacliq.com/images/i8/437Wx649H/MP000000014185524_437Wx649H_202208201933392.jpeg"
+                  src={
+                    singleProduct.images !== undefined
+                      ? singleProduct.images[1]
+                      : ""
+                  }
                   alt=""
                 />
               </div>
@@ -55,21 +80,30 @@ export default function Singleproductpage({ data }) {
                     textAlign: "start",
                   }}
                 >
-                  adidas
+                  {singleProduct.title !== undefined ? singleProduct.title : ""}
                 </h4>
                 <div
                   style={{
                     textAlign: "start",
                   }}
                 >
-                  <p>Adidas Men's Response Solar Grey Running Shoes</p>
+                  <p>
+                    {" "}
+                    {singleProduct.description !== undefined
+                      ? singleProduct.description
+                      : ""}
+                  </p>
                 </div>
                 <div
                   style={{
                     textAlign: "start",
                   }}
                 >
-                  <h4>₹5000</h4>
+                  <h4>
+                    {singleProduct.price !== undefined
+                      ? `₹${singleProduct.price}`
+                      : ""}
+                  </h4>
                   <p>Inclusive of all taxes</p>
                 </div>
                 <div
@@ -201,16 +235,19 @@ export default function Singleproductpage({ data }) {
                         borderRadius: "1rem",
                       }}
                     >
-                      <h4>adidas</h4>
+                      <h4>
+                        {singleProduct.title !== undefined
+                          ? singleProduct.title
+                          : ""}
+                      </h4>
                       <p
                         style={{
                           lineHeight: "1.8",
                         }}
                       >
-                        Adidas AG is a German multinational corporation, that
-                        designs and manufactures shoes, clothing and
-                        accessories. It is the largest sportswear manufacturer
-                        in Europe, and the second biggest in the world.
+                        {singleProduct.description !== undefined
+                          ? singleProduct.description
+                          : ""}
                       </p>
                       <button
                         style={{
@@ -273,7 +310,7 @@ export default function Singleproductpage({ data }) {
                   </button>
                   <button
                     style={{
-                      color: "#da1c5c",
+                      // color: "#da1c5c",
                       border: "1px solid #da1c5c",
                       color: "white",
                       width: "38%",

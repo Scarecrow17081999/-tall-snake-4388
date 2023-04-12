@@ -1,27 +1,24 @@
-#SearchPageMainParentContainer{
-    width: 100%;
-    background-color: white;
-    padding-bottom: 8rem;
+#SearchPageMainParentContainer {
+  width: 100%;
+  background-color: white;
+  padding-bottom: 8rem;
 }
-#SearchPageMainChildContainerTop{
-    display: flex;
-    justify-content: flex-end;
+#SearchPageMainChildContainerTop {
+  display: flex;
+  justify-content: flex-end;
 }
-#SearchPageMainChildContainer{
-    width: 80%;
-    margin: auto;
+#SearchPageMainChildContainer {
+  width: 80%;
+  margin: auto;
 }
-#SearchPageMainChildContainerLeft{
-    
+#SearchPageMainChildContainerLeft {
 }
-#SearchPageMainChildContainerRight{
-margin: auto;
+#SearchPageMainChildContainerRight {
+  margin: auto;
 }
-#SearchPageMainChildContainerBottom{
-    display: flex;
-    /* justify-content: space-between; */
-    /* border: 1px solid black; */
-    padding: 1rem;
-
-
+#SearchPageMainChildContainerBottom {
+  display: flex;
+  /* justify-content: space-between; */
+  /* border: 1px solid black; */
+  padding: 1rem;
 }

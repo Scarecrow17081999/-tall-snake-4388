@@ -18,7 +18,7 @@
   display: flex;
 }
 #singleProductTopContainer2 {
-  padding:0 40px;
+  padding: 0 40px;
   width: 50%;
 }
 #singleProductTopContainer1 > div {
@@ -38,21 +38,17 @@
   width: 100%;
   border: 1px solid #ccc;
   border-radius: 15px;
-  
+
   margin-top: 1rem;
-  
 }
-#singleProductBottomContainer>div>div:first-child {
+#singleProductBottomContainer > div > div:first-child {
   display: flex;
   align-items: center;
-  
-  
 }
-#singleProductBottomContainer>div {
+#singleProductBottomContainer > div {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin:20px 30px;
-  text-align: start;  
+  margin: 20px 30px;
+  text-align: start;
 }
-

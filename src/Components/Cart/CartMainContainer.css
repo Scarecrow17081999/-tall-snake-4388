@@ -1,19 +1,19 @@
-#cartCard{
-   width: 80%;
-   margin: 0 auto;
-   margin-top: 5%;
-   margin-bottom: 5%;
+#cartCard {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
-#productTotal>div{
-display: flex;
-justify-content: space-between;
-align-items: center;
+#productTotal > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 @media screen and (max-width: 768px) {
-#cartCard {
-        width: 98%;
-        margin: 0 auto;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
+  #cartCard {
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
 }

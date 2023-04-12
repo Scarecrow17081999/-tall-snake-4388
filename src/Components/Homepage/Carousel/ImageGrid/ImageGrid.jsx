@@ -42,7 +42,7 @@ export default function ImageGrid({ data }) {
           <Grid container justifyContent="center" spacing={spacing}>
             {data[1]?.map((value) => (
               <Grid key={value.title} item>
-                <img src={value.img} alt={value.title}/>
+                <img src={value.img} alt={value.title} />
               </Grid>
             ))}
           </Grid>

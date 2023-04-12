@@ -4,7 +4,7 @@ import Box from "@mui/material/Box";
 export default function ImageCards({ data }) {
   return (
     <Box>
-      <Box style={{margin:'90px auto'}}>
+      <Box style={{ margin: "90px auto" }}>
         <h1 style={{ color: "#010101", fontSize: "3rem" }}>{data[0].title}</h1>
         <p style={{ color: "#010101", fontSize: "1.8rem" }}>{data[0].detail}</p>
       </Box>

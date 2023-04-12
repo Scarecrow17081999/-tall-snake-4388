@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, Navigate } from "react-router-dom";
 import "./Navbar.css";
-import axios from "axios";
 import { FormControl, Input, InputLabel } from "@mui/material";
 import Box from "@mui/material/Box";
 import Avatar from "@mui/material/Avatar";
@@ -26,7 +25,7 @@ import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
 import Typography from "@mui/material/Typography";
 import LoginIcon from "@mui/icons-material/Login";
-import Cart from "../.././Cart/Cart";
+
 import { AuthContext } from "../../../Contexts/AuthContext";
 import { useContext } from "react";
 function AccountMenu() {
@@ -133,10 +132,18 @@ function AccountMenu() {
   );
 }
 function InputWithIcon() {
+  const [setSearchInput] = React.useState("");
+
+  const submitFunction = () => {
+    <Navigate to="/searchpage" replace={true} />;
+  };
   return (
     <Box sx={{ "& > :not(style)": { m: 1 }, width: "100%" }}>
-      <FormControl sx={{ width: "250%" }}>
+      <form onSubmit={submitFunction} sx={{ width: "250%" }}>
         <input
+          onChange={(e) => {
+            setSearchInput(e.target.value);
+          }}
           id="searchInput"
           placeholder="Search for products"
           style={{
@@ -149,7 +156,8 @@ function InputWithIcon() {
             fontSize: "16px",
           }}
         />
-      </FormControl>
+        <Link to="/searchpage">Button</Link>
+      </form>
     </Box>
   );
 }
@@ -315,7 +323,6 @@ export default function Navbar() {
         </Box>
         <Box sx={{ width: "50%" }}>
           <AccountMenu />
-          <Box></Box>
         </Box>
       </Box>
       <Box id="bottomNavContainer">
@@ -344,8 +351,8 @@ export default function Navbar() {
               }}
               aria-label="delete"
             >
-              <Link to='/cart'>
-              <LocalMallIcon sx={{ color: "white" }} />
+              <Link to="/cart">
+                <LocalMallIcon sx={{ color: "white" }} />
               </Link>
             </IconButton>
           </Badge>
@@ -361,35 +368,35 @@ const style = {
   transform: "translate(-50%, -50%)",
   width: 400,
   bgcolor: "background.paper",
-  border:'none',
-  outline:'none',
-  borderRadius:'1.5rem',
+  border: "none",
+  outline: "none",
+  borderRadius: "1.5rem",
   boxShadow: 24,
   p: 4,
 };
 
-function Login() {
-  const [email, setEmail] = React.useState("");
-  const [password, setPassword] = React.useState("");
-  const [token, setToken] = React.useState("");
-  const { login, logout, isAuthenticated } = useContext(AuthContext);
-  const fetch = (email, password) => {
-    axios
-      .post("https://reqres.in/api/login", {
-        email,
-        password,
-      })
-      .then(function (response) {
-        //  setIsAuthenticated(true);
-        setToken(response.data.token);
-        // console.log(response.data);
-      })
-      .catch(function (error) {
-        // console.log(error);
-        //  setIsAuthenticated(false);
-      });
-  };
-}
+// function Login() {
+//   const [email, setEmail] = React.useState("");
+//   const [password, setPassword] = React.useState("");
+//   const [token, setToken] = React.useState("");
+//   const { login, logout, isAuthenticated } = useContext(AuthContext);
+//   const fetch = (email, password) => {
+//     axios
+//       .post("https://reqres.in/api/login", {
+//         email,
+//         password,
+//       })
+//       .then(function (response) {
+//         //  setIsAuthenticated(true);
+//         setToken(response.data.token);
+//         // console.log(response.data);
+//       })
+//       .catch(function (error) {
+//         // console.log(error);
+//         //  setIsAuthenticated(false);
+//       });
+//   };
+// }
 const Div = styled("div")(({ theme }) => ({
   ...theme.typography.button,
   backgroundColor: theme.palette.background.paper,
@@ -522,6 +529,3 @@ function TransitionsModal() {
     </div>
   );
 }
-
-
-

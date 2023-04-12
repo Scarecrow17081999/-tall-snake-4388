@@ -16,7 +16,7 @@ import DepartmentRadioGroup from "./DepartmentRadioGroup";
 import BrandRadioGroup from "./BrandRadioGroup";
 import ColorSelectGroup from "./ColorSelectGroup";
 import SearchPageProducts from "./SearchPageProducts";
-import {Button} from "@mui/material";
+import { Button } from "@mui/material";
 import "./SearchPageMain.css";
 export default function SearchPageMain() {
   return (

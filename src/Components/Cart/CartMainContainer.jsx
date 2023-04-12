@@ -1,6 +1,6 @@
 import React from "react";
 import "./CartMainContainer.css";
-import { useTheme } from "@mui/material/styles";
+// import { useTheme } from "@mui/material/styles";
 import Divider from "@mui/material/Divider";
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
@@ -11,8 +11,8 @@ import Typography from "@mui/material/Typography";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import Button from "@mui/material/Button";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
+import Menu from "@mui/material/Menu";
+import MenuItem from "@mui/material/MenuItem";
 const data = [
   {
     img: "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016000649_437Wx649H_202301080231401.jpeg",
@@ -141,10 +141,18 @@ export default function CartMainContainer() {
   );
 }
 function CartCard({ data }) {
-  const theme = useTheme();
+  // const theme = useTheme();
 
   return (
-    <Card sx={{ display: "flex", marginBottom: "15px", boxShadow: "none",justifyContent:'space-between',p:'0 20px' }}>
+    <Card
+      sx={{
+        display: "flex",
+        marginBottom: "15px",
+        boxShadow: "none",
+        justifyContent: "space-between",
+        p: "0 20px",
+      }}
+    >
       <CardMedia
         component="img"
         sx={{ width: 151 }}
@@ -167,24 +175,31 @@ function CartCard({ data }) {
         </CardContent>
         <Divider sx={{ borderBottom: "1px solid #ccc", width: "100%" }} />
         <Box
-          sx={{ display: "flex", alignItems: "center", justifyContent:'space-between',pl: 1, pb: 1, pt: 1 }}
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            pl: 1,
+            pb: 1,
+            pt: 1,
+          }}
         >
           <UseMenu />
-          <Box
-            sx={{ display: "flex", alignItems: "center" }}
-          >
+          <Box sx={{ display: "flex", alignItems: "center" }}>
             <IconButton aria-label="delete">
               <FavoriteBorderIcon sx={{ color: "black" }} />
             </IconButton>
-            <p style={{marginRight:'1rem'}}>Save to wishlist</p>
-            <Button sx={{border:'none',background:'transparent'}}>Remove</Button>
+            <p style={{ marginRight: "1rem" }}>Save to wishlist</p>
+            <Button sx={{ border: "none", background: "transparent" }}>
+              Remove
+            </Button>
           </Box>
         </Box>
       </Box>
     </Card>
   );
 }
- function UseMenu() {
+function UseMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [quantity, setQuantity] = React.useState(1);
   const open = Boolean(anchorEl);
@@ -192,7 +207,7 @@ function CartCard({ data }) {
     setAnchorEl(event.currentTarget);
   };
   const handleClose = (num) => {
-    setQuantity(num)
+    setQuantity(num);
     setAnchorEl(null);
   };
 
@@ -208,10 +223,7 @@ function CartCard({ data }) {
       >
         Quantity:
       </Button>
-      <span style={{marginLeft:'15px'}}>
-
-      {quantity}
-      </span>
+      <span style={{ marginLeft: "15px" }}>{quantity}</span>
       <Menu
         id="basic-menu"
         anchorEl={anchorEl}
@@ -221,13 +233,42 @@ function CartCard({ data }) {
           "aria-labelledby": "basic-button",
         }}
       >
-        <MenuItem onClick={()=>{handleClose(1)}}>1</MenuItem>
-        <MenuItem onClick={()=>{handleClose(2)}}>2</MenuItem>
-        <MenuItem onClick={()=>{handleClose(3)}}>3</MenuItem>
-        <MenuItem onClick={()=>{handleClose(4)}}>4</MenuItem>
-        <MenuItem onClick={()=>{handleClose(5)}}>5</MenuItem>
+        <MenuItem
+          onClick={() => {
+            handleClose(1);
+          }}
+        >
+          1
+        </MenuItem>
+        <MenuItem
+          onClick={() => {
+            handleClose(2);
+          }}
+        >
+          2
+        </MenuItem>
+        <MenuItem
+          onClick={() => {
+            handleClose(3);
+          }}
+        >
+          3
+        </MenuItem>
+        <MenuItem
+          onClick={() => {
+            handleClose(4);
+          }}
+        >
+          4
+        </MenuItem>
+        <MenuItem
+          onClick={() => {
+            handleClose(5);
+          }}
+        >
+          5
+        </MenuItem>
       </Menu>
     </div>
   );
 }
-

@@ -36,7 +36,7 @@ export default function Footer() {
             height: "120px",
           }}
         >
-          <img src="https://www.tatacliq.com/src/general/components/img/Frame22222.svg" />
+          <img src="https://www.tatacliq.com/src/general/components/img/Frame22222.svg" alt=""/>
           <img
             style={{
               width: "35%",
@@ -49,6 +49,7 @@ export default function Footer() {
               top: "-130px",
             }}
             src="https://www.tatacliq.com/src/general/components/img/trustFrame.png"
+            alt=""
           />
         </Box>
         <Box
@@ -73,6 +74,7 @@ export default function Footer() {
             <img
               style={{ width: "55px" }}
               src="https://www.tatacliq.com/src/general/components/img/feedBackIcons.svg"
+              alt=""
             />
             <p>
               <h4>Let us Know how you feel</h4>
@@ -91,85 +93,84 @@ export default function Footer() {
       <Box id="bottomFooter" sx={{ width: "80%", margin: "auto" }}>
         <Box className="footerLists" sx={{ width: "600px", marginTop: "10px" }}>
           <ul>
-            <a href="">
+            <a href="/">
               <li>Tata Marketplace</li>
             </a>
-            <a href="">
+            <a href="/">
               <li>About Us</li>
             </a>
-            <a href="">
+            <a href="/">
               <li>Careers</li>
             </a>
-            <a href="">
+            <a href="/">
               <li>Sell With Us</li>
             </a>
-            <a href="">
+            <a href="/">
               <li>Terms of Use</li>
             </a>
-            <a href="">
+            <a href="/">
               <li>Privacy Policy</li>
             </a>
-            <a href="">
+            <a href="/">
               <li>Affiliates</li>
             </a>
-            <a href="">
+            <a href="/">
               <li>Sitemap</li>
             </a>
           </ul>
           <ul>
-            <a href="">
+            <a href="/">
               <li>Customer Service</li>
             </a>
-            <a href="">
+            <a href="/">
               <li>Shopping</li>
             </a>
-            <a href="">
+            <a href="/">
               <li>Offers and Promitions</li>
             </a>
-            <a href="">
+            <a href="/">
               <li>Payments</li>
             </a>
-            <a href="">
+            <a href="/">
               <li>Cancellation</li>
             </a>
-            <a href="">
+            <a href="/">
               <li>Return and Refunds</li>
             </a>
-            <a href="">
+            <a href="/">
               <li>Return to store</li>
             </a>
-            <a href="">
+            <a href="/">
               <li>Electronic return policy</li>
             </a>
-            <a href="">
+            <a href="/">
               <li>Contact Us</li>
             </a>
-            <a href="">
+            <a href="/">
               <li>Review Guidlines</li>
             </a>
-            <a href="">
+            <a href="/">
               <li>Furniture Return Policy</li>
             </a>
           </ul>
           <ul>
-            <a href="">
+            <a href="/">
               <li>My Tata CLiQ</li>
             </a>
-            <a href="">
+            <a href="/">
               <li>My Account</li>
             </a>
-            <a href="">
+            <a href="/">
               <li>My Orders</li>
             </a>
-            <a href="">
+            <a href="/">
               <li>My Shopping Bag</li>
             </a>
-            <a href="">
+            <a href="/">
               <li>My Whislist</li>
             </a>
           </ul>
         </Box>
-  
       </Box>
       <Box id="bottomFooterImageSection">
         <div id="bottomFooterImageSectionChild">
@@ -191,16 +192,15 @@ export default function Footer() {
         </div>
       </Box>
       <Box id="bottomFooterDetailSection">
-        <SimpleAccordion/>
-        
+        <SimpleAccordion />
       </Box>
     </Box>
   );
 }
- function SimpleAccordion() {
+function SimpleAccordion() {
   return (
     <div>
-      <Accordion sx={{boxShadow:'none'}}>
+      <Accordion sx={{ boxShadow: "none" }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
