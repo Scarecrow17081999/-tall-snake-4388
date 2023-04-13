@@ -6,6 +6,8 @@ import Cart from "../Components/Cart/Cart";
 import Men from "../Components/Men/Men";
 import SearchPage from "../Components/Searchpage/SearchPage";
 import Women from "../Components/Women/Women";
+import CheckOut from "../Components/Cart/CheckOut/CheckOut";
+import Address from "../Components/Cart/Address/Address";
 export default function Allroutes() {
   return (
     <Routes>
@@ -19,6 +21,8 @@ export default function Allroutes() {
         element={<Singleproductpage />}
       />
       <Route path="/cart" element={<Cart />} />
+      <Route path="/checkout" element={<CheckOut />} />
+      <Route path="/address" element={<Address />} />
     </Routes>
   );
 }

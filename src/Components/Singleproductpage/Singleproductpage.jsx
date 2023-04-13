@@ -3,8 +3,6 @@ import "./Singleproductpage.css";
 import Footer from "../Homepage/Footer/Footer";
 import Navbar from "../Homepage/Navbar/Navbar";
 import { Divider } from "@mui/material";
-
-
 import Snackbar from "@mui/material/Snackbar";
 import MuiAlert from "@mui/material/Alert";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
@@ -17,14 +15,13 @@ import DoneSharpIcon from "@mui/icons-material/DoneSharp";
 import StarPurple500SharpIcon from "@mui/icons-material/StarPurple500Sharp";
 import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
-// import CartSnackBar from './CartSanckBar'
 import { useParams } from "react-router-dom";
 import { useContext } from "react";
 import { CartTotalItems } from "../../Contexts/CartTotalItems";
 export default function Singleproductpage({ data }) {
   let { id } = useParams();
-  let { addItem, removeItem, cartData, cartTotalProductsNumber } =
-    useContext(CartTotalItems);
+  let { addItem, removeItem, CartData } = useContext(CartTotalItems);
+
   const [singleProduct, setSingleProduct] = React.useState({});
 
   const fetchProducts = async () => {
@@ -32,15 +29,13 @@ export default function Singleproductpage({ data }) {
     const data = await response.json();
     setSingleProduct(data);
   };
-  const addToBagFunction = () => {
-    addItem();
-  };
-
   React.useEffect(() => {
     fetchProducts();
     window.scrollTo(0, 0);
-  },[]);
- 
+  }, []);
+  const addToBagFunction = () => {
+    addItem(singleProduct);
+  };
 
   return (
     <>
@@ -318,7 +313,7 @@ export default function Singleproductpage({ data }) {
                   >
                     Buy Now
                   </button>
-                  <CartSnackBar data={{addToBagFunction}} />
+                  <CartSnackBar data={{ addToBagFunction }} />
                   {/* <button
                     onClick={(e) => {
                       addToBagFunction();
@@ -431,9 +426,8 @@ const Alert = React.forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
 });
 
- function CartSnackBar({data}) {
+function CartSnackBar({ data }) {
   const [open, setOpen] = React.useState(false);
-console.log(data.addToBagFunction);
   const handleClick = () => {
     setOpen(true);
   };
@@ -447,7 +441,7 @@ console.log(data.addToBagFunction);
   };
 
   return (
-    < >
+    <>
       <button
         style={{
           border: "1px solid #da1c5c",
@@ -463,7 +457,6 @@ console.log(data.addToBagFunction);
           data.addToBagFunction();
           handleClick();
         }}
-       
       >
         Add To Cart
       </button>

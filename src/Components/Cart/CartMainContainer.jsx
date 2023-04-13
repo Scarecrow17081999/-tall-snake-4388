@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./CartMainContainer.css";
 // import { useTheme } from "@mui/material/styles";
 import Divider from "@mui/material/Divider";
@@ -13,76 +13,44 @@ import Button from "@mui/material/Button";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
-const data = [
-  {
-    img: "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016000649_437Wx649H_202301080231401.jpeg",
-    title: "Campus Womens CAMP DENVER White Sneakers",
-    price: "20.00",
-  },
-  {
-    img: "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016000649_437Wx649H_202301080231401.jpeg",
-    title: "Campus Womens CAMP DENVER White Sneakers",
-    price: "20.00",
-  },
-  {
-    img: "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016000649_437Wx649H_202301080231401.jpeg",
-    title: "Campus Womens CAMP DENVER White Sneakers",
-    price: "20.00",
-  },
-  {
-    img: "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016000649_437Wx649H_202301080231401.jpeg",
-    title: "Campus Womens CAMP DENVER White Sneakers",
-    price: "20.00",
-  },
-  {
-    img: "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016000649_437Wx649H_202301080231401.jpeg",
-    title: "Campus Womens CAMP DENVER White Sneakers",
-    price: "20.00",
-  },
-  {
-    img: "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016000649_437Wx649H_202301080231401.jpeg",
-    title: "Campus Womens CAMP DENVER White Sneakers",
-    price: "20.00",
-  },
-  {
-    img: "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016000649_437Wx649H_202301080231401.jpeg",
-    title: "Campus Womens CAMP DENVER White Sneakers",
-    price: "20.00",
-  },
-  {
-    img: "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016000649_437Wx649H_202301080231401.jpeg",
-    title: "Campus Womens CAMP DENVER White Sneakers",
-    price: "20.00",
-  },
-  {
-    img: "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016000649_437Wx649H_202301080231401.jpeg",
-    title: "Campus Womens CAMP DENVER White Sneakers",
-    price: "20.00",
-  },
-  {
-    img: "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016000649_437Wx649H_202301080231401.jpeg",
-    title: "Campus Womens CAMP DENVER White Sneakers",
-    price: "20.00",
-  },
-];
+import { Link } from "react-router-dom";
+import { CartTotalItems } from "../../Contexts/CartTotalItems";
+import { useContext } from "react";
 export default function CartMainContainer() {
+  const [cartItems, setCartItems] = React.useState(null);
+ 
+
+  useEffect(() => {
+    let data1= JSON.parse(window.localStorage.getItem("cartData"))
+    setCartItems(data1);
+    console.log(data1);
+  }, [cartItems]);
   return (
     <div style={{ display: "flex", justifyContent: "space-between" }}>
       <div style={{ width: "70%" }}>
-        {data.map((e) => {
-          return <CartCard data={e} key={Math.random()} />;
+        {cartItems?.map((e) => {
+          return (
+            <CartCard
+              setItems={setCartItems}
+              totalItems={cartItems}
+              data={e}
+              key={e.id}
+            />
+          );
         })}
-        <button
-          style={{
-            padding: "9px 25px",
-            fontSize: "1.3rem",
-            borderRadius: "3rem",
-            border: "1px solid black",
-            marginBottom: "15px",
-          }}
-        >
-          Continue Shopping
-        </button>
+        <Link to="/">
+          <button
+            style={{
+              padding: "9px 25px",
+              fontSize: "1.3rem",
+              borderRadius: "3rem",
+              border: "1px solid black",
+              marginBottom: "15px",
+            }}
+          >
+            Continue Shopping
+          </button>
+        </Link>
       </div>
       <div>
         <div
@@ -121,6 +89,7 @@ export default function CartMainContainer() {
               <h3>₹300.00</h3>
             </div>
             <div style={{}}>
+              <Link to='/checkout'>
               <button
                 style={{
                   padding: "9px 25px",
@@ -130,9 +99,10 @@ export default function CartMainContainer() {
                   marginBottom: "15px",
                   margin: "auto 0",
                 }}
-              >
+                >
                 Checkout
               </button>
+                </Link>
             </div>
           </div>
         </div>
@@ -140,8 +110,16 @@ export default function CartMainContainer() {
     </div>
   );
 }
-function CartCard({ data }) {
-  // const theme = useTheme();
+function CartCard({ data, setItems, totalItems }) {
+  const { CartData, removeItem } = useContext(CartTotalItems);
+  const removeItems = (id) => {
+
+    let newData=totalItems.filter((e)=>e.id!==id);
+    console.log(id, setItems, totalItems);
+    window.localStorage.setItem("cartData", JSON.stringify(newData));
+    removeItem();
+
+  };
 
   return (
     <Card
@@ -155,11 +133,18 @@ function CartCard({ data }) {
     >
       <CardMedia
         component="img"
-        sx={{ width: 151 }}
-        image={data.img}
+        sx={{ width: "151px", padding: "15px", borderRadius: "18px" }}
+        image={data.images ? data.images[0] : ""}
         alt="Live from space album cover"
       />
-      <Box sx={{ display: "flex", flexDirection: "column" }}>
+      <Box
+        sx={{
+          width: "75%",
+          display: "flex",
+          flexDirection: "column",
+          // border: "1px solid black",
+        }}
+      >
         <CardContent sx={{ flex: "1 0 auto" }}>
           <Typography sx={{ textAlign: "start" }} component="div" variant="h5">
             {data.title}
@@ -170,7 +155,7 @@ function CartCard({ data }) {
             component="div"
             sx={{ textAlign: "start" }}
           >
-            `₹{data.price}`
+            ₹{data.price}
           </Typography>
         </CardContent>
         <Divider sx={{ borderBottom: "1px solid #ccc", width: "100%" }} />
@@ -190,7 +175,12 @@ function CartCard({ data }) {
               <FavoriteBorderIcon sx={{ color: "black" }} />
             </IconButton>
             <p style={{ marginRight: "1rem" }}>Save to wishlist</p>
-            <Button sx={{ border: "none", background: "transparent" }}>
+            <Button
+              onClick={() => {
+                removeItems(data.id);
+              }}
+              sx={{ border: "none", background: "transparent" }}
+            >
               Remove
             </Button>
           </Box>

@@ -311,7 +311,7 @@ function CustomizedMenus2() {
   );
 }
 export default function Navbar() {
-  const { cartTotalProductsNumber } = useContext(CartTotalItems);
+  const {  CartData } = useContext(CartTotalItems);
 
 
 return (
@@ -340,7 +340,7 @@ return (
           sx={{
             margin: "0 0 0 15px",
           }}
-          badgeContent={window.localStorage.getItem("cartTotalProductsNumber")}
+          badgeContent={CartData.current.length}
           color="primary"
           max={100}
         >
