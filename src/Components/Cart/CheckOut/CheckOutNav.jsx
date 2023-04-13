@@ -49,7 +49,7 @@ export default function CheckOutNav() {
           <AccountMenu />
         </div>
       </div>
-      <div id="cartContainerMain">
+      <div id="checkoutCartContainerMain">
         <div id="cartContainerMainLeft">
           <h1>Checkout</h1>
           <Accordian />

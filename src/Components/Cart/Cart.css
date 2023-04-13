@@ -33,7 +33,13 @@
 #cartContainerMain {
   width: 80%;
   margin: auto;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-#cartContainerMain > h4 {
+#cartContainerMain  h4 {
+  /* border: 1px solid black; */
   text-align: start;
+  display: block;
 }

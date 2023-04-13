@@ -89,7 +89,7 @@ export default function CartMainContainer() {
               <h3>₹300.00</h3>
             </div>
             <div style={{}}>
-              <Link to='/checkout'>
+              <Link to='/address'>
               <button
                 style={{
                   padding: "9px 25px",

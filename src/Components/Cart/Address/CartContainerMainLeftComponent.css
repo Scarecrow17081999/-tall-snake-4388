@@ -1,0 +1,33 @@
+#addressCartContainerMainLeft{
+    width: 60%;
+   border-radius: 0.5rem;
+    background-color: white;
+    padding: 2rem;
+    margin-top: 4rem;
+    /* height: 600px; */
+}
+#cancelAndSaveAddressButton{
+    height: 120px;
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#cancelAndSaveAddressButton>button:first-child{
+    /* margin-left: 5%; */
+    padding: 20px;
+    color:#ff1744 ;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+#cancelAndSaveAddressButton>Link>button:last-child{
+   
+}
+#cancelAndSaveAddressButton>Link>button:last-child:active{
+   
+    background-color: #d01439;
+   
+    transition: all 0.1s ease-out;
+}

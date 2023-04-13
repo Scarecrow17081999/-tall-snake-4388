@@ -63,18 +63,28 @@ export default function Cart() {
         </div>
       </div>
       <div id="cartContainerMain">
-        <h4>
+        
+        <Box >
+
+        {cartItems.length !== 0||null ? (
+          <>
+          <h4>
           Apply a relevant coupon code here to avail any additional discount.
           Applicable cashback if any will be credited to your account as per
           T&C.
         </h4>
-        {cartItems.length !== 0||null ? (
           <CartMainContainer />
+          </>
         ) : (
           <EmptyCartComponent />
-        )}
+          )}
+          </Box>
+      
       </div>
-      {cartItems.length !== 0||null ? <CartFooter /> : null}
+      <Box style={{position:'absolute',width:'100%',marginTop:'2rem'}}>
+
+      {cartItems.length !== 0||null ? <CartFooter  /> : null}
+      </Box>
     </div>
   );
 }

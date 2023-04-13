@@ -24,7 +24,8 @@
 }
 
 
-#cartContainerMain {
+#checkoutCartContainerMain {
+    padding-bottom: 130px;
     width: 80%;
     margin: auto;
     display: flex;
